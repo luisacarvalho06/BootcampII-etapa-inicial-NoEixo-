@@ -32,7 +32,30 @@ O No Eixo é um aplicativo web que cria um plano de ação claro no caos mental 
 
 ## Instalação
 1. Clone o repositorio:
+```
+git clone <URL_DO_REPOSITORIO>
+cd BootcampII-etapa-inicial-NoEixo-
+```
+2. Instale as dependências
+```
+py -m pip install -r requirements.txt
+```
+## Execução
+Para rodar o aplicativo:
+```
+py src/NoEixo.py
+```
+## Testes
+Para executar os testes automatizados:
+```
+py -m pytest
+```
 
+## Lint
+Para verificar a qualidade e padronização do código:
+```
+ruff check .
+```
 
 ## Versão
 1.0.0
