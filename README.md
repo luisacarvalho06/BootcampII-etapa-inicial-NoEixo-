@@ -4,17 +4,20 @@
 A falta de organizadores de estudos na vida de pessoas já desorganizadas cria um efeito dominó que afeta profundamente o desempenho acadêmico e a saúde mental. A desorganização não é apenas visual, ela causa um cansaço mental crônico por forçar o cérebro a gerenciar excesso de informações sem estrutura.
 
 ## Solução
-O No Eixo é um aplicativo web que cria um plano de ação claro no caos mental de obrigações pendentes, permitindo que as pessoas saibam exatamente o que e até quando devem executar tais tarefas. Ele traz tranquilidade e paz ao dia a dia, uma vez que transformam a intenção em acão.
+O No Eixo é um aplicativo web que cria um plano de ação claro em meio ao caos de obrigações pendentes, permitindo que as pessoas saibam exatamente o que e até quando devem executar suas tarefas. Ele traz tranquilidade e paz ao dia a dia, uma vez que transformam a intenção em ação.
 
 ## Público-Alvo
 • Estuantes que desejam organizar suas pendências.
 
 ## Funcionalidades Principais
-• Adicionar tarefas e suas respectivas datas.
-• Listar as prioridades sendo: 🟥Vermelho= Alta prioridade; 🟨Amarelo= Média prioridade; 🟩Verde: Baixa prioridade.
-• Editar as tarefas e suas datas.
+• Adicionar tarefas e suas respectivas datas
+• Listar as prioridades sendo: 
+  • 🟥Vermelho= Alta prioridade 
+  • 🟨Amarelo= Média prioridade 
+  • 🟩Verde: Baixa prioridade
+• Editar tarefas e datas
 • Excluir tarefas
-• Concluir tarefas, para sumirem da lista.
+• Concluir tarefas (removendo-as da lista)
 
 ## Pré-Visualização
 <img width="1919" height="283" alt="image" src="https://github.com/user-attachments/assets/41ec0477-2b9d-44bb-9f25-242792ee6d17" />
@@ -31,12 +34,12 @@ O No Eixo é um aplicativo web que cria um plano de ação claro no caos mental 
 • GitHub Actions 
 
 ## Instalação
-1. Clone o repositorio:
+Clone o repositorio:
 ```
 git clone <URL_DO_REPOSITORIO>
 cd BootcampII-etapa-inicial-NoEixo-
 ```
-2. Instale as dependências
+Instale as dependências:
 ```
 py -m pip install -r requirements.txt
 ```
@@ -61,7 +64,8 @@ ruff check .
 1.0.0
 
 ## Autor
-Luisa Carvalho- https://github.com/luisacarvalho06
+Luisa Carvalho
+https://github.com/luisacarvalho06
 
 ## Repositório
 https://github.com/luisacarvalho06/BootcampII-etapa-inicial-NoEixo-
