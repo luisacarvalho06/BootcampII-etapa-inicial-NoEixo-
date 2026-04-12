@@ -1,5 +1,5 @@
 # Organizador de estudos: No eixo
-✅ build passing
+
 ## Problema
 A falta de organizadores de estudos na vida de pessoas já desorganizadas cria um efeito dominó que afeta profundamente o desempenho acadêmico e a saúde mental. A desorganização não é apenas visual, ela causa um cansaço mental crônico por forçar o cérebro a gerenciar excesso de informações sem estrutura.
 
