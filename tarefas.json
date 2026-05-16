@@ -1,19 +1,19 @@
 [
     {
+        "nome": "trabalho de portugues",
+        "data": "17/05/2026",
+        "prioridade": "Alta",
+        "concluida": false
+    },
+    {
+        "nome": "trabalho de geografia",
+        "data": "19/05/2026",
+        "prioridade": "Média",
+        "concluida": true
+    },
+    {
         "nome": "trabalho de matematica",
-        "data": "17/05/2026",
-        "prioridade": "Alta",
-        "concluida": true
-    },
-    {
-        "nome": "trabalho de react",
-        "data": "17/05/2026",
-        "prioridade": "Alta",
-        "concluida": true
-    },
-    {
-        "nome": "bootcamp",
-        "data": "28/06/2026",
+        "data": "20/05/2026",
         "prioridade": "Baixa",
         "concluida": false
     }
