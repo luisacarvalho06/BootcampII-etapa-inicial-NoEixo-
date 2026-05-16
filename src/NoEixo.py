@@ -9,6 +9,12 @@ from logica import (
     concluir_tarefa
 )
 
+from motivacao import (
+    alerta_prazo,
+    alerta_baixa_prioridade,
+    mensagem_conclusao
+)
+
 ARQUIVO = "tarefas.json"
 
 tarefas = []
@@ -59,6 +65,25 @@ def adicionar_tarefa_gui():
         messagebox.showerror("Erro", "Dados inválidos!")
         return
 
+    # ALERTA DE PRAZO
+    alerta = alerta_prazo(nome, data)
+
+    if alerta:
+        messagebox.showwarning(
+            "Prazo Próximo",
+            alerta
+        )
+
+    # ALERTA DE BAIXA PRIORIDADE
+    if prioridade == "Baixa":
+
+        mensagem = alerta_baixa_prioridade(nome)
+
+        messagebox.showinfo(
+            "Lembrete",
+            mensagem
+        )
+
     salvar_tarefas()
     atualizar_lista()
     limpar_campos()
@@ -105,11 +130,21 @@ def editar_tarefa_gui(index):
     atualizar_lista()
 
 def concluir_tarefa_gui(index):
+
+    nome_tarefa = tarefas[index]["nome"]
+
     sucesso = concluir_tarefa(tarefas, index)
 
     if not sucesso:
         messagebox.showerror("Erro", "Erro ao concluir tarefa!")
         return
+
+    mensagem = mensagem_conclusao(nome_tarefa)
+
+    messagebox.showinfo(
+        "Tarefa Concluída",
+        mensagem
+    )
 
     salvar_tarefas()
     atualizar_lista()
@@ -127,6 +162,38 @@ def remover_tarefa_gui(index):
 def limpar_campos():
     entry_nome.delete(0, tk.END)
     entry_data.delete(0, tk.END)
+
+def verificar_alertas_ao_iniciar():
+
+    for tarefa in tarefas:
+
+        # Ignora tarefas concluídas
+        if tarefa["concluida"]:
+            continue
+
+        nome = tarefa["nome"]
+        data = tarefa["data"]
+        prioridade = tarefa["prioridade"]
+
+        # ALERTA DE PRAZO
+        alerta = alerta_prazo(nome, data)
+
+        if alerta:
+
+            messagebox.showwarning(
+                "Prazo Próximo",
+                alerta
+            )
+
+        # ALERTA DE BAIXA PRIORIDADE
+        if prioridade == "Baixa":
+
+            mensagem = alerta_baixa_prioridade(nome)
+
+            messagebox.showinfo(
+                "Lembrete",
+                mensagem
+            )
 
 root = tk.Tk()
 root.title("Organizador de Estudos")
@@ -167,5 +234,7 @@ frame_lista.pack(fill="both", expand=True, padx=20, pady=10)
 
 carregar_tarefas()
 atualizar_lista()
+
+verificar_alertas_ao_iniciar()
 
 root.mainloop()
