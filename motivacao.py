@@ -14,7 +14,7 @@ def buscar_frase():
             return f'"{frase}" - {autor}'
 
     except:
-        return "Continue focado nos estudos!"
+        return "Continue focado nos  seus estudos!"
 
 
 def alerta_prazo(nome, data_entrega):
