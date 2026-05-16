@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 def buscar_frase():
     try:
@@ -13,12 +14,10 @@ def buscar_frase():
             return f'"{frase}" - {autor}'
 
     except:
-        return "Continue focado nos seus estudos!"
+        return "Continue focado nos estudos!"
 
-from datetime import datetime
-from motivacao import buscar_frase
 
-def verificar_prazo(nome, data_entrega):
+def alerta_prazo(nome, data_entrega):
 
     hoje = datetime.now().date()
 
@@ -30,12 +29,14 @@ def verificar_prazo(nome, data_entrega):
         print(f"\n⚠️ A atividade '{nome}' está perto do prazo!")
         print(buscar_frase())
 
+
 def alerta_baixa_prioridade(nome):
 
     print(f"\n📌 Não esqueça da atividade '{nome}' mesmo sendo baixa prioridade!")
     print(buscar_frase())
 
-def concluir_atividade(nome):
 
-    print(f"\n🎉 Parabéns por concluir '{nome}' dentro do prazo!")
+def mensagem_conclusao(nome):
+
+    print(f"\n🎉 Parabéns por concluir '{nome}'!")
     print("Agora faça uma pequena pausa antes da próxima tarefa 😊")
