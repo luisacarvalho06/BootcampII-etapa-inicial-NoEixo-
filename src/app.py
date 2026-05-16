@@ -216,9 +216,7 @@ else:
                 )
 
                 st.success(mensagem)
-
-                st.rerun()
-
+                
         with col3:
 
             if st.button(
