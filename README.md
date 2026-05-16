@@ -69,3 +69,16 @@ https://github.com/luisacarvalho06
 
 ## Repositório
 https://github.com/luisacarvalho06/BootcampII-etapa-inicial-NoEixo-
+
+## Funcionalidades novas
+
+- Alertas de prazo de atividades
+- Mensagens motivacionais
+- Integração com API ZenQuotes
+- Teste de integração automatizado
+
+## Tecnologias
+- Python
+- Requests
+- Pytest
+- GitHub Actions
