@@ -1,11 +1,11 @@
-# 📚 Organizador de Estudos — No Eixo
+# Organizador de Estudos — No Eixo
 
 🔗 **Acesse a aplicação:**  
 https://organizadordetarefas0.streamlit.app/
 
 ---
 
-# 🧠 Problema
+# Problema
 
 A falta de organização nos estudos pode gerar impactos significativos no desempenho acadêmico e na saúde mental. Muitas pessoas enfrentam dificuldades para visualizar suas pendências de forma clara, o que provoca sobrecarga mental, procrastinação e perda de produtividade.
 
@@ -13,7 +13,7 @@ A desorganização não é apenas visual — ela força o cérebro a lidar const
 
 ---
 
-# 💡 Solução
+# Solução
 
 O **No Eixo** é um aplicativo web desenvolvido para auxiliar estudantes na organização de tarefas acadêmicas, oferecendo um ambiente simples, intuitivo e funcional.
 
@@ -28,7 +28,7 @@ Com isso, o sistema ajuda o usuário a transformar intenção em ação, trazend
 
 ---
 
-# 🎯 Público-Alvo
+# Público-Alvo
 
 - Estudantes que desejam organizar seus estudos e tarefas acadêmicas;
 - Pessoas que buscam melhorar produtividade e gerenciamento de tempo.
@@ -46,7 +46,7 @@ Com isso, o sistema ajuda o usuário a transformar intenção em ação, trazend
 
 # ⚙️ Funcionalidades
 
-## 📌 Gerenciamento de tarefas
+## Gerenciamento de tarefas
 
 - Adicionar tarefas;
 - Editar tarefas;
@@ -57,7 +57,7 @@ Com isso, o sistema ajuda o usuário a transformar intenção em ação, trazend
 
 ---
 
-## 🎨 Sistema de prioridades
+## Sistema de prioridades
 
 | Prioridade | Cor |
 |---|---|
@@ -67,7 +67,7 @@ Com isso, o sistema ajuda o usuário a transformar intenção em ação, trazend
 
 ---
 
-## 🚨 Alertas inteligentes
+## Alertas inteligentes
 
 O sistema possui alertas automáticos para:
 
@@ -77,7 +77,7 @@ O sistema possui alertas automáticos para:
 
 ---
 
-## 💬 Mensagens motivacionais
+## Mensagens motivacionais
 
 A aplicação consome uma API pública externa para exibir frases motivacionais dinâmicas ao usuário, incentivando foco e produtividade.
 
@@ -85,7 +85,7 @@ As frases também podem ser traduzidas automaticamente para melhorar a experiên
 
 ---
 
-# 🔌 Integração com API
+# Integração com API
 
 ## API utilizada
 
@@ -104,7 +104,7 @@ Buscar frases motivacionais aleatórias para serem exibidas durante o uso da apl
 
 ---
 
-# 🧪 Testes Automatizados
+# Testes Automatizados
 
 O projeto possui testes automatizados de integração utilizando Pytest, garantindo que a comunicação com a API funcione corretamente.
 
@@ -115,7 +115,7 @@ py -m pytest
 ```
 ---
 
-## 🔄 Integração Contínua (CI/CD)
+## Integração Contínua (CI/CD)
 
 O projeto utiliza GitHub Actions para execução automática de:
 
@@ -127,7 +127,7 @@ O projeto utiliza GitHub Actions para execução automática de:
 
 ---
 
-## 🚀 Deploy
+## Deploy
 
 A aplicação foi publicada utilizando Streamlit Cloud.
 
@@ -136,7 +136,7 @@ https://organizadordetarefas0.streamlit.app/
 
 --- 
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python
 - Streamlit
@@ -147,7 +147,7 @@ https://organizadordetarefas0.streamlit.app/
 
 ---
 
-## 💻 Instalação
+## Instalação
 
 Clone o repositório
 ```
@@ -159,7 +159,7 @@ cd BootcampII-etapa-inicial-NoEixo-
 
 ---
 
-## 📦 Instalação das dependências
+## Instalação das dependências
 
 ```
 py -m pip install -r requirements.txt
@@ -167,7 +167,7 @@ py -m pip install -r requirements.txt
 
 ---
 
-## ▶️ Execução do Projeto
+## Execução do Projeto
 
 ```
 python -m streamlit run app.py
@@ -175,7 +175,7 @@ python -m streamlit run app.py
 
 ---
 
-## 🔀 Fluxo de Desenvolvimento
+## Fluxo de Desenvolvimento
 
 O projeto seguiu um fluxo de desenvolvimento semelhante ao utilizado no mercado de trabalho:
 
@@ -191,7 +191,7 @@ O projeto seguiu um fluxo de desenvolvimento semelhante ao utilizado no mercado 
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 📦 BootcampII-etapa-inicial-NoEixo-
@@ -208,11 +208,11 @@ O projeto seguiu um fluxo de desenvolvimento semelhante ao utilizado no mercado 
 
 ---
 
-## 📦 Versão
+## Versão
 
 1.0.0
 
-## 👩‍💻 Autora
+## Autora
 
 Luisa Carvalho
 
