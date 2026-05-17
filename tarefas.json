@@ -1,8 +1,20 @@
 [
     {
-        "nome": "Estudar capitulo 2 de portugus",
-        "data": "20/04/2026",
+        "nome": "trabalho de portugues",
+        "data": "17/05/2026",
+        "prioridade": "Alta",
+        "concluida": false
+    },
+    {
+        "nome": "trabalho de geografia",
+        "data": "19/05/2026",
         "prioridade": "Média",
         "concluida": true
+    },
+    {
+        "nome": "trabalho de matematica",
+        "data": "20/05/2026",
+        "prioridade": "Baixa",
+        "concluida": false
     }
 ]
