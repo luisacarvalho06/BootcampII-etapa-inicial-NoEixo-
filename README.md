@@ -44,7 +44,7 @@ Com isso, o sistema ajuda o usuário a transformar intenção em ação, trazend
 
 ---
 
-# ⚙️ Funcionalidades
+# Funcionalidades
 
 ## Gerenciamento de tarefas
 
