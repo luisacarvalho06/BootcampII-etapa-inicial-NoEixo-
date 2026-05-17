@@ -1,4 +1,4 @@
-pytest
-ruff 
+streamlit
 requests
 pytest
+ruff
